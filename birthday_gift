@@ -1,0 +1,26 @@
+def main():
+    """This program calculate the amount i will gift my son 
+        if i give him an amount equivalent to his age in every birthday. 
+    """
+    #ages on 1st birthday and 18th birthday
+    print ("Enter the start age: ")
+    start_age = int(input(''))
+
+    print("Enter the end_age: ")
+    end_age = int(input(''))
+
+    #culculate the total amount to gift during his 18th Birthday
+    gift = 0
+    for age in range (start_age,end_age + 1):
+        gift += age
+    #return gift
+    print("The amount to gift you son during his 18th Birthday is " + str(gift))
+
+
+
+
+    
+
+
+if __name__ == "__main__":
+    main()
